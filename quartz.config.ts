@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Minds & Machines Knowledge Base",
+    pageTitleSuffix: "a digital garden of ideas and information related to the philosophy of minds and machines...",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://github.com/a663E-36z1120/minds-machinesKB",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -55,6 +55,8 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
+      // Plugin.ObsidianFlavoredMarkdown(),
+      Plugin.HardLineBreaks(),
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],

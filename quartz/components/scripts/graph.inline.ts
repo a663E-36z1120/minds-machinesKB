@@ -450,7 +450,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
   // greater default zoom ratio
   // TODO, refactor this and upstream
-  const initialZoomScale = 2  // Make this whatever zoom level you want (e.g., 2 for 2x zoom)
+  const initialZoomScale = 1.75  // Make this whatever zoom level you want (e.g., 2 for 2x zoom)
   const centerX = width / 2
   const centerY = height / 2
 
