@@ -448,8 +448,31 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     linkRenderData.push(linkRenderDatum)
   }
+  // greater default zoom ratio
+  // TODO, refactor this and upstream
+  const initialZoomScale = 2  // Make this whatever zoom level you want (e.g., 2 for 2x zoom)
+  const centerX = width / 2
+  const centerY = height / 2
 
   let currentTransform = zoomIdentity
+
+  currentTransform = zoomIdentity.translate(centerX * (1 - initialZoomScale), centerY * (1 - initialZoomScale)).scale(initialZoomScale)
+  stage.scale.set(currentTransform.k, currentTransform.k)
+  stage.position.set(currentTransform.x, currentTransform.y)
+
+  // Set label opacity to match initial zoom level
+  const zoomAdjustedScale = currentTransform.k * opacityScale
+  const scaleOpacity = Math.max((zoomAdjustedScale - 1) / 3.75, 0)
+
+  const activeLabels = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
+
+  for (const label of labelsContainer.children) {
+    if (!activeLabels.includes(label)) {
+      label.alpha = scaleOpacity
+    }
+  }
+
+
   if (enableDrag) {
     select<HTMLCanvasElement, NodeData | undefined>(app.canvas).call(
       drag<HTMLCanvasElement, NodeData | undefined>()
@@ -521,6 +544,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           }
         }),
     )
+    // Apply initial zoom to D3 zoom behavior
+    select(app.canvas).call(
+    zoom<HTMLCanvasElement, NodeData>().transform as any,
+    currentTransform
+)
+
   }
 
   let stopAnimation = false
