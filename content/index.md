@@ -13,4 +13,4 @@ Tag index + definition:
 - #property: a property that a mind or machine can possess.
 
 
-by: [Andrew H. Zhang](https://a663e-36z1120.github.io/)
+by: <a href="https://a663e-36z1120.github.io/" target="_blank">Andrew H. Zhang</a>
