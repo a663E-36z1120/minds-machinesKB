@@ -10,8 +10,8 @@ Tag index + definitions:
 - #person: a human being.
 - #machine: a machine, physical or abstract.
 - #algorithm: a procedure that a machine runs. 
-- #problem: a problem.
-- #property: a property that a mind or machine can possess.
+- #problem: a problem or a question.
+- #property: a property that a mind, machine, idea, or algorithm can possess.
 
 
 by: <a href="https://a663e-36z1120.github.io/" target="_blank">Andrew H. Zhang</a>
