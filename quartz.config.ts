@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Minds & Machines Knowledge Base",
-    pageTitleSuffix: "a digital garden of ideas and information related to the philosophy of minds and machines...",
+    pageTitleSuffix: " -- a digital garden of ideas and information related to the philosophy of minds and machines...",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
