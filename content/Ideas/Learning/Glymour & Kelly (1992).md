@@ -8,6 +8,6 @@ A key result is that **no such mark of truth exists** for realistic learning pro
 
 where Meno's paradox is mathematically valid under this formalisation.
 
-To approach a solution to Meno's paradox, this implies that learning must proceed **without certainty**, often by **eliminating false hypotheses** over time rather than recognizing truth directly. The learner converges to the truth _in the limit_, but can never be sure they have found it at any finite stage.
+To approach a solution to Meno's paradox, this implies that learning must proceed **without certainty**, often by **eliminating false hypotheses** over time rather than recognizing truth directly (see [[Bayesian Confirmation Theory]]). The learner converges to the truth _in the limit_, but can never be sure they have found it at any finite stage.
 
 Furthermore, this reinforces the idea that **justification (verification)** cannot be separated cleanly from the **process of discovery (inquiry)**, and that truth must be approached via systematic revision — not recognized outright.
