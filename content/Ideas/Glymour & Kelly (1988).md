@@ -1,1 +1,0 @@
-[[Clark Glymour]] and [[Kevin Kelly]] proposed in *''*

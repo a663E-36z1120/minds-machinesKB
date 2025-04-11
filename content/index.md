@@ -9,7 +9,7 @@ Tag index + definitions:
 - #idea: an idea that a mind came up with.
 - #person: a human being.
 - #machine: a machine, physical or abstract.
-- #algorithm: a procedure that a machine runs. 
+- #algorithm: a procedure that a machine runs (or mathematical formalism for a problem).
 - #problem: a problem or a question.
 - #property: a property that a mind, machine, idea, or algorithm can possess.
 

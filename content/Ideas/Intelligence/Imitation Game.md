@@ -5,6 +5,6 @@ The goals of each party are as follows:
 - **The human**: help the interrogator achieve their goal.
 - **The machine**: convince the interrogator that they are human.
 
-Often used as a criteria for the problem of [[Can Machines Think?]].
+Often used as a criteria for the problem of [[Can Machines Think?]]. If a machine is able to pass the Turing test (successfully play the imitation game) by exhibiting intelligent behaviour equivalent to that of a human, it's good evidence that a machine can indeed think.
 
 #idea
