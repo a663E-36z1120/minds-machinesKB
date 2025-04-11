@@ -1,4 +1,4 @@
-Behaviour following a [[Model]], as opposed to [[Model-free]].
+Behaviour following a [[Model]].
 
 A model-based agent will learn from experience plus simulation.
 

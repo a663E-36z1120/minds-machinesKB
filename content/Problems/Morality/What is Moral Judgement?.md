@@ -4,9 +4,7 @@ Two ways to understand moral judgement:
 
 Debate surrounds if these two judgements are the products of the same cognitive system.
 
-**Yes**:
-- [[Peter Railton]]
-**No:**
-- [[Kevin Kelly]]
+**Yes**: [[Peter Railton]]
+**No:** [[Kevin Kelly]]
 
 #problem

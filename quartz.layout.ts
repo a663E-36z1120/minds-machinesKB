@@ -60,11 +60,11 @@ export const defaultContentPageLayout: PageLayout = {
         zoom: true,
         depth: -1,
         scale: 0.9,
-        repelForce: 0.6,
+        repelForce: 2.75,
         centerForce: 0.3,
-        linkDistance: 17,
-        fontSize: 0.4,
-        opacityScale: 1,
+        linkDistance: 30,
+        fontSize: 0.7,
+        opacityScale: 4,
         removeTags: [], // what tags to remove from the graph
         showTags: false, // whether to show tags in the graph
         enableRadial: true, // whether to constrain the graph, similar to Obsidian
