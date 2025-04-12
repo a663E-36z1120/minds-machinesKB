@@ -1,4 +1,4 @@
-More popularly known as the [[Turing Test]], the Imitation Game is a thought experiment proposed by [[Alan Turing]] in his 1950 paper "Computing Machinery and Intelligence". It involves a human interrogator communicating with a human and a machine through text. 
+More popularly known as the [[Turing Test]], the Imitation Game is a thought experiment proposed by [[Alan Turing]] in his 1950 paper "Computing Machinery and [[Intelligence]]". It involves a human interrogator communicating with a human and a machine through text. 
 
 The goals of each party are as follows:
 - **The (human) interrogator**: determine who of the other two parties are the machine and human respectively.

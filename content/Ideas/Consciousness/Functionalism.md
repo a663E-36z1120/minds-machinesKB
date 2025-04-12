@@ -1,0 +1,1 @@
+The theory of [[consciousness]] that that attempts to account for the phenomenal character of conscious states in terms of their functional (cause and effect) role (i.e. function).

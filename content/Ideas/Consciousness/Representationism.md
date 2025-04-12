@@ -1,0 +1,1 @@
+The theory of [[consciousness]] that attempts to account for a conscious state’s phenomenal character in terms of its representational content.

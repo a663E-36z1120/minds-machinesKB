@@ -1,0 +1,3 @@
+**Combinatorial explosion** is the rapid growth of the complexity of a problem, i.e. the phenomenon in which the number of possibilities one must represent or search through grows **exponentially (or faster)** as a problem is scaled up by even a single step. Because resource demands double, triple, or rise by powers of ten at each increment, they soon outstrip any feasible amount of time, memory, or energy.
+
+Combinatorial explosion makes brute force methods to approach [[Intelligence]] such as the [[Aunt Bertha Machine]] practically impossible.
