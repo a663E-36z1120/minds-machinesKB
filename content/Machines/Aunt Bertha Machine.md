@@ -6,3 +6,5 @@ Proposed in [[Block (1981)]], the **“Aunt Bertha machine”** is Ned Block
   - The programmers often imagine the replies as ones “Aunt Bertha” would give if her mischievous nephew plunked her in front of a teletype and asked her to answer silly questions, hence the nickname. 
 
 Block concedes that realistically Aunt Bertha Machine is practically impossible due to [[combinatorial explosion]], where by some estimates an hour-long Turing test would require more entries in the lookup-table than the number of particles in the universe. 
+
+#machine
