@@ -1,11 +1,13 @@
+**Gradient Descent** is an iterative gradient-based algorithm for performing (proximal) optimization on a set of differentiable variables with respect to a [[loss function]] when directly computing the optimum is costly or outright impossible.
 
-Minimise a differentiable loss function $\mathcal L(\theta)$ with respect to parameters $\theta\in\mathbb R^{d}$.
+Intuitively, we can imagine the parameters of the loss function form a "loss landscape", where at each update the gradient points toward approximately where the optimum is. With each iteration, we walk a path down the loss landscape guided by these gradients toward a proximal optimum.
 
-**Core update**
+Formally, we minimise a differentiable loss function $\mathcal L(\theta)$ with respect to parameters $\theta\in\mathbb R^{d}$ as follows:
+$$
+\theta_{t+1} \;=\; \theta_{t} \;-\; \eta_t \,\nabla_\theta \mathcal L(\theta_t)
+$$
+where:
+- $\nabla_\theta \mathcal L(\theta_t)$ is the gradient (direction of steepest increase)
+- $\eta_t>0$ is the learning‑rate. (i.e. step size along the optimisation path)
 
-θt+1  =  θt  −  ηt ∇θL(θt),\theta_{t+1} \;=\; \theta_{t} \;-\; \eta_t \,\nabla_\theta \mathcal L(\theta_t),
-
-where ∇θL(θt)\nabla_\theta \mathcal L(\theta_t) is the gradient (direction of steepest increase) and ηt>0\eta_t>0 is the learning‑rate. Stepping opposite the gradient yields the largest first‑order decrease in loss. For small ηt\eta_t:
-
-L(θt+1)  ≈  L(θt)−ηt ∥∇θL(θt)∥2,\mathcal L(\theta_{t+1}) \;\approx\; \mathcal L(\theta_t) - \eta_t \,\|\nabla_\theta \mathcal L(\theta_t)\|^{2},
-
+#algorithm
