@@ -7,7 +7,7 @@ A biological neuron converts graded chemical inputs into a digital‑like electr
     • This electrochemical gradient is the neuron’s “charged battery.”
 2. **Input reception (dendrites & soma)**  
     • Thousands of synapses release neurotransmitters that bind to ligand‑gated ion channels or metabotropic receptors.  
-    • Each synaptic event produces a tiny voltage change—excitatory postsynaptic potential (EPSP, depolarising) or inhibitory postsynaptic potential (IPSP, hyperpolarising).  
+    • Each synaptic event produces a tiny voltage change — excitatory postsynaptic potential (EPSP, depolarising) or inhibitory postsynaptic potential (IPSP, hyperpolarising).  
     • EPSPs and IPSPs spread passively and sum both spatially and temporally across the dendritic tree.
 3. **Integration & decision (axon hillock / initial segment)**  
     • When the net membrane potential at the hillock crosses a threshold (≈ ‑55 mV), voltage‑gated Na⁺ channels snap open.
