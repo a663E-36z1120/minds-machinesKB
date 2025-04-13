@@ -27,7 +27,9 @@ $$
 ($\odot$ is the element‑wise product operator).
 
 Then, for any layers $\ell=L-1,\dots,1$, we can derive the error signal from the error signal propagated back from later layers by applying chain rule to $z_{\ell+1} = W_{\ell+1} \phi_\ell(z_\ell)+b_{\ell+1}$:
-$$\;\delta_\ell \;=\; \frac{\partial\mathcal L}{\partial z_\ell}\;=\;\frac{\partial\mathcal L}{\partial z_{\ell+1}}\frac{\partial z_{\ell+1}}{\partial z_\ell} =\;\delta_{\ell+1}\odot \bigl(W_{\ell+1}^{\!\top}\phi_\ell'(z_\ell)\bigr)$$
+$$
+\;\delta_\ell = \frac{\partial\mathcal L}{\partial z_\ell}=\frac{\partial\mathcal L}{\partial z_{\ell+1}}\frac{\partial z_{\ell+1}}{\partial z_\ell} =\delta_{\ell+1}\odot \bigl(W_{\ell+1}^{\!\top}\phi_\ell'(z_\ell)\bigr)
+$$
 Finally, we can apply the chain rule to $z_\ell = W_\ell h_{\ell-1}+b_\ell$ to derive the weight and bias gradients from the error signal:
 $$
 \frac{\partial \mathcal L}{\partial W_\ell}= \frac{\partial\mathcal L}{\partial z_\ell} \frac{\partial z_\ell}{\partial W_\ell}= \delta_\ell\,h_{\ell-1}^{\!\top},\qquad
