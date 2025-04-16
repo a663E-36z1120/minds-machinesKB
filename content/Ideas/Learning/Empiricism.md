@@ -1,0 +1,3 @@
+**Empiricism** asserts that all knowledge comes from sensory experience. According to empiricist thinkers, the human mind starts as a “blank slate” (tabula rasa), and through interaction with the environment—via observation, experimentation, and experience — it gradually accumulates knowledge.
+
+Under an empiricist view, cognitive and behavioral development result from exposure to stimuli. Learning is seen as a process of forming associations, generalizations, and representations based on the statistical regularities that one encounters in the environment.

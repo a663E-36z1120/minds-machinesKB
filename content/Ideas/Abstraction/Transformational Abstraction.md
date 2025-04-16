@@ -1,0 +1,9 @@
+Transformational abstraction is the process by which a system (such as a deep [[convolutional neural network]]) transforms raw sensory input into higher-level, invariant representations while discarding irrelevant details. In this process:
+
+- **Input Transformation:** The system starts with concrete, variable exemplars—images or sensory data that contain numerous idiosyncratic details (such as different rotations, scales, or positions).
+    
+- **Feature Extraction and Invariance:** Through a series of hierarchical transformations—typically involving operations like convolution (which extracts local features) and pooling (which aggregates these features and reduces sensitivity to minor variations)—the system gradually converts these concrete inputs into abstract representations. These abstract representations capture the essential features of a category (for example, “chair” or “triangle”) by being invariant to variations that do not affect category membership.
+    
+- **Bidirectional Mapping:** Not only does transformational abstraction support the upward process of categorization (moving from detailed exemplars to abstract concepts), it also facilitates the reverse process. This means that from the high-level, abstract representations, the system can reconstruct or generate particular exemplars, effectively “traveling” back to the concrete.
+
+This mechanism provides an empirically grounded account of abstraction that addresses classic philosophical challenges (like those raised by Locke, Berkeley, and Hume) about how abstract ideas can emerge from sensory experience without invoking mysterious, innate faculties. In deep learning, transformational abstraction explains why DCNNs excel at recognizing objects across varied presentations—by efficiently filtering out “nuisance” variations—and even generating new exemplars that fit within a learned category.

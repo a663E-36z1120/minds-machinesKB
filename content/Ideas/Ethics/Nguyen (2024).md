@@ -1,0 +1,5 @@
+[[Thi Nguyen]]’s paper “*Value Capture*” explores how externally imposed metrics and standardized measures become internalized by individuals and groups, ultimately dominating their process of value deliberation.
+
+The paper opens with a story about a relative whose planned vacation with friends was subverted when her companions focused solely on meeting their Fitbit step goals. This narrative sets the stage for the phenomenon Nguyen calls “[[value capture]],” where the clarity and simplicity of external metrics override other, richer values (such as cultural enrichment or personal connection).
+
+Nguyen invites a critical reassessment of how we internalize external measures, particularly when human and machines inter-operate (i.e. AI assisted decision-making). Ultimately, the paper challenges us to consider whether the gains in clarity and efficiency provided by these metrics are worth the potential erosion of nuanced, autonomously determined values.

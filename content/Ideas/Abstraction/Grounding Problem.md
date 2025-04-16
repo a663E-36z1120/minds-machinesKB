@@ -1,0 +1,1 @@
+The grounding problem is a core issue of [[artificial intelligence]] that questions how abstract symbols (such as words or computational data) acquire intrinsic meaning — how they link to real-world objects or experiences.

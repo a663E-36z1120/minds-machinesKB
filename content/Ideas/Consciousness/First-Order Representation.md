@@ -1,0 +1,1 @@
+First-order representations are the direct representations of sensory input or external stimuli. They capture information about objects, events, or states of affairs without any additional reflective or meta-level processing.

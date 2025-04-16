@@ -1,0 +1,1 @@
+Higher-order representations are representations of representations. In other words, they are meta-representations that concern the cognitive system’s own first-order representations.

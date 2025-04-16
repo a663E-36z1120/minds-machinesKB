@@ -1,0 +1,3 @@
+Hilary Putnam's Twin Earth thought experiment, used to illustrate [[semantic externalism]], argues that meaning isn't solely determined by what's in our heads, but also by external factors, particularly the causal role of the referent. 
+
+Imagine a planet, Twin Earth, identical to Earth except its water is a different chemical compound, XYZ. Twin Earthers, who speak English and have the same mental states as us, would call XYZ "water". Putnam argues that because the two substances, H2O and XYZ, are different, the meaning of "water" on Earth and Twin Earth also differ, even though the mental states of the speakers are the same. This demonstrates that meaning depends on the external referent, not just the internal mental representation. 
